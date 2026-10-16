@@ -1,10 +1,12 @@
 import Bio from "./Bio";
+import Hire from "./Hire";
 import StatCard from "./StatCard";
 
 export default function Profile () {
     return (
 
         <div className="flex items-end justify-between bg-[#F5E7C6] px-20 py-10">
+            <Hire></Hire>
         <div>
 
           <Bio name = "Louraine Mae D. Javines" username = "@lourainemaedominojavines-rgb" ></Bio>
