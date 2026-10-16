@@ -1,4 +1,5 @@
 import Bio from "./Bio";
+import StatCard from "./StatCard";
 
 export default function Profile () {
     return (
@@ -14,7 +15,7 @@ export default function Profile () {
 
           <Bio name = "Louraine Mae D. Javines" username = "@lourainemaedominojavines-rgb" ></Bio>
 
-          <div className="mt-6 flex gap-6">
+          {/* <div className="mt-6 flex gap-6">
             <div className="w-48 rounded-xl bg-[#FAF3E1] py-4 text-center">
               <p className="text-4xl font-bold text-[#FA8112]">{followers}</p>
               <p className="mt-1 text-lg">Followers</p>
@@ -23,7 +24,12 @@ export default function Profile () {
               <p className="text-4xl font-bold text-[#FA8112]">{rate}</p>
               <p className="mt-1 text-lg">PHP per hour</p>
             </div>
-          </div>
+          </div> */}
+
+          <StatCard value = {followers} label = "Followers"></StatCard>
+          <StatCard value = {rate} label = "PHP per hour"></StatCard>
+
+          
         </div>
 
         <div className="flex gap-4">
