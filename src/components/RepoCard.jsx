@@ -1,7 +1,7 @@
 export default function RepoCard ({name, description, language, commits}) {
     
     return (
-    
+        <div className="flex items-end justify-between bg-[#F5E7C6] px-20 py-10">
         <div className="rounded-xl border-2 border-[#222222] p-8">
             <div className="flex items-center justify-between">
                 <h3 className="text-2xl font-bold">{name}</h3>
@@ -20,6 +20,7 @@ export default function RepoCard ({name, description, language, commits}) {
                 <span>{commits}</span>
             </div>
 
+        </div>
         </div>
 
         
