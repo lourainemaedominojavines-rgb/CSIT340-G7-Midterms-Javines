@@ -4,13 +4,15 @@ export default function Profile () {
     return (
         <>
         <div>
-          <header>
+          {/* <header>
             <h2 className="text-6xl font-bold">LOURAINE MAE D. JAVINES</h2>
             <p className="mt-1 text-2xl text-[#FA8112]">
               @YOUR_GITHUB_USERNAME
             </p>
             <p className="mt-3 text-2xl">Front-end developer from Cebu City.</p>
-          </header>
+          </header> */}
+
+          <Bio name = "Louraine Mae D. Javines" username = "@lourainemaedominojavines-rgb" ></Bio>
 
           <div className="mt-6 flex gap-6">
             <div className="w-48 rounded-xl bg-[#FAF3E1] py-4 text-center">
